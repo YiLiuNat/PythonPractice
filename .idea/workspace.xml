@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd9f7e5f-5ad7-4abd-b3f4-fdb472d4bd02" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/1.hello_world.py" afterPath="$PROJECT_DIR$/1.hello_world.py" />
+      <change beforePath="$PROJECT_DIR$/2.list.py" afterPath="$PROJECT_DIR$/2.list.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +23,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2.list.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2.list.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2.list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="75">
+              <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.operator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.operator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loop.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/loop.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,6 +72,9 @@
         <option value="$PROJECT_DIR$/venv/2.list.py" />
         <option value="$PROJECT_DIR$/1.hello_world.py" />
         <option value="$PROJECT_DIR$/2.list.py" />
+        <option value="$PROJECT_DIR$/operator.py" />
+        <option value="$PROJECT_DIR$/3.operator.py" />
+        <option value="$PROJECT_DIR$/loop.py" />
       </list>
     </option>
   </component>
@@ -113,7 +135,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hello_world">
+  <component name="RunManager" selected="Python.operator">
     <configuration name="hello_world" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,9 +172,28 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="2">
+    <configuration name="operator" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="1.FirstProject" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.operator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.hello_world" />
       <item index="1" class="java.lang.String" itemvalue="Python.list" />
+      <item index="2" class="java.lang.String" itemvalue="Python.operator" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -220,8 +261,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2.list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="75">
+          <caret line="5" column="53" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.operator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
