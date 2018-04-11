@@ -34,3 +34,7 @@ print dict[2]           #输出键为 2 的值
 print tinydict          #输出完整的字典tindict
 print tinydict.keys()   #输出所有键
 print tinydict.values() #输出所有值
+
+print '--------------------字符串更新-------------------'
+var1 = 'Hello world!'
+print "更新字符串 :-", var1[:6] + 'Runoob!'
