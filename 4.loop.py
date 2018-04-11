@@ -55,3 +55,9 @@ while(x < 50):
     x = x + 1
 print "End"
 print not(0)
+
+print "------------------continue语句------------------"
+for letter in 'Python':
+    if letter == 'o':
+        continue #跳过当前循环剩余语句（删除满足循环调节下的某些不需要的部分）
+    print '当前字母：', letter
