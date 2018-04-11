@@ -37,11 +37,21 @@ for fruit in fruits:
 
 print 'End'
 
-print "----------------通过序列索引迭代----------------"
+print "-----------------通过序列索引迭代----------------"
 people = ['Tom','Anna','Wilson']
 for index in range(len(people)):
     print '当前人物：', people[index]
 
 print 'End'
 
-print "----------------循环使用else语句----------------"
+print "--------------------循环嵌套--------------------"
+x = 2
+while(x < 50):
+    y = 2
+    while(y <= (x/y)):
+        if not(x%y): break #没有余数时退出循环（not不为零的数为false）
+        y = y + 1
+    if (y > x/y): print x, " 是质数"
+    x = x + 1
+print "End"
+print not(0)
