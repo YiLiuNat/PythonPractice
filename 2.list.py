@@ -37,4 +37,4 @@ print tinydict.values() #输出所有值
 
 print '--------------------字符串更新-------------------'
 var1 = 'Hello world!'
-print "更新字符串 :-", var1[:6] + 'Runoob!'
+print "更新字符串 :-", var1[0:6] + '这是更新后的字符!'
