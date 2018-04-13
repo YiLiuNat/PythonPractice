@@ -31,3 +31,4 @@ print str[2:5] #输出字符串第三个到第五个字符
 print str[2:] #输出第三个之后的
 print str * 2 #输出两遍
 print str + "TEST" #输出再加上TEST
+

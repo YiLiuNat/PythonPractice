@@ -7,6 +7,7 @@ print '----------------------数组----------------------'
 print list
 print list[0]
 print list[1:3]
+print list[-2]
 print list[2:]
 print tinylist*2
 print list + tinylist
@@ -37,4 +38,6 @@ print tinydict.values() #输出所有值
 
 print '--------------------字符串更新-------------------'
 var1 = 'Hello world!'
+print "这是原字符串 :-", var1
 print "更新字符串 :-", var1[0:6] + '这是更新后的字符!'
+
