@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd9f7e5f-5ad7-4abd-b3f4-fdb472d4bd02" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/1.FirstProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/1.FirstProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.hello_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.hello_world.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.list.py" beforeDir="false" afterPath="$PROJECT_DIR$/2.list.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1.hello_world.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1.hello_world.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1.hello_world.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state>
+              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5.function.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/5.function.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -27,8 +35,8 @@
       <file leaf-file-name="2.list.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2.list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="135">
+              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -74,6 +82,7 @@
         <option value="$PROJECT_DIR$/4.loop.py" />
         <option value="$PROJECT_DIR$/1.hello_world.py" />
         <option value="$PROJECT_DIR$/2.list.py" />
+        <option value="$PROJECT_DIR$/5.function.py" />
       </list>
     </option>
   </component>
@@ -110,7 +119,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="1.FirstProject" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="1.FirstProject" />
+      </console-settings>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -124,7 +141,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.list">
+  <component name="RunManager" selected="Python.function">
+    <configuration name="function" type="PythonConfigurationType" factoryName="Python">
+      <module name="1.FirstProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.function.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="hello_world" type="PythonConfigurationType" factoryName="Python">
       <module name="1.FirstProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,6 +217,7 @@
     <list>
       <item itemvalue="Python.hello_world" />
       <item itemvalue="Python.list" />
+      <item itemvalue="Python.function" />
       <item itemvalue="Python.loop" />
     </list>
   </component>
@@ -320,17 +356,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.list.py">
+    <entry file="file://$PROJECT_DIR$/1.hello_world.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.hello_world.py">
+    <entry file="file://$PROJECT_DIR$/2.list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="135">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
