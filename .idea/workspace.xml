@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd9f7e5f-5ad7-4abd-b3f4-fdb472d4bd02" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/1.FirstProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/1.FirstProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.function.py" beforeDir="false" afterPath="$PROJECT_DIR$/5.function.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +22,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="5.function.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="5.function.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5.function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="405">
+              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6.io.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/6.io.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -83,6 +91,7 @@
         <option value="$PROJECT_DIR$/1.hello_world.py" />
         <option value="$PROJECT_DIR$/2.list.py" />
         <option value="$PROJECT_DIR$/5.function.py" />
+        <option value="$PROJECT_DIR$/6.io.py" />
       </list>
     </option>
   </component>
@@ -141,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.function">
+  <component name="RunManager" selected="Python.io">
     <configuration name="function" type="PythonConfigurationType" factoryName="Python">
       <module name="1.FirstProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,6 +182,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.hello_world.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="io" type="PythonConfigurationType" factoryName="Python">
+      <module name="1.FirstProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6.io.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,6 +245,7 @@
       <item itemvalue="Python.hello_world" />
       <item itemvalue="Python.list" />
       <item itemvalue="Python.function" />
+      <item itemvalue="Python.io" />
       <item itemvalue="Python.loop" />
     </list>
   </component>
@@ -236,7 +264,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="997" y="23" width="923" height="1120" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31419286" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -372,8 +399,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5.function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="405">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>

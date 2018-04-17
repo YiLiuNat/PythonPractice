@@ -12,8 +12,17 @@
 #   return [expression]
 
 def printme(str):
-    "打印传入的字符串"
+    "打印传入的字符串再加个嘻嘻嘻"
     print str + "嘻嘻嘻"
     return
 
-printme("我要调用函数！")
+printme("我要调用函数！");
+
+print "-------------------------------"
+def printinfo(name, age):
+    "打印传入的字符串"
+    print "Name: ", name;
+    print "Age ", age;
+    return;
+
+printinfo (age = 50, name = "yoki");
